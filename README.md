@@ -1,22 +1,16 @@
-# C++ Boilerplate
+
+# C++ Matrix Multiplication
+
 About 
 -------
-This project folder is a boilerplate for c++ projects. 
-It is free to use (MIT Licence)
+This project multiples matrices
 
-The main cpp file in src is just the main function with cstdio lib
-
-    using namespace std;
-    int main()
-    {
-    
-        return 0;
-    }
+Most of the code is sourced from
+https://www.programiz.com/cpp-programming/examples/matrix-multiplication
 
 ## Project files
+
 * includes - placeholder txt file
 * libs - placeholder txt file, replace with libraries
 * src - source code
 * test - place to stage tests
-
-Nothing more, nothing less

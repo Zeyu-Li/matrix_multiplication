@@ -39,6 +39,7 @@ int main() {
 	}
 	int c[a_width][b_height];
 
+	// sourced from https://www.programiz.com/cpp-programming/examples/matrix-multiplication
 	for (int i = 0; i < a_width; i++) {
 		for (int j = 0; j < b_height; j++) {
 			c[i][j] = 0;
