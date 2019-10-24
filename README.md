@@ -1,8 +1,8 @@
 
 # C++ Matrix Multiplication
 
-About 
--------
+## About
+
 This project multiples matrices
 
 Most of the code is sourced from
