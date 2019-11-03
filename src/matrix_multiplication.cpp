@@ -1,21 +1,11 @@
 #include <cstdio>
 #include <string>
-#include <iostream>
 using namespace std;
 
 int main() {
 
-	// asks user for width and height of both matrices
-	int A_width;
-	int A_height;
-	int B_width;
-	int B_height;
-
-	cout << "Width of first: " << endl;
-	cin >> A_width;
-
 	// inits the matrix heights and widths
-	int const a_width = A_width;
+	int const a_width = 3;
 	int const a_height = 3;
 	int const b_width = 3;
 	int const b_height = 3;
@@ -27,16 +17,17 @@ int main() {
 		{0, 8, 1}
 	};
 	int b[b_width][b_height] = {
-		{1, 2, 10},
+		{12, 2, 10},
 		{0, 1, 0},
 		{3, 0, 1}
 	};
 
 	// not possible if first first matrix's width is not he same as\n the second matrix's height
 	if (a_width != b_height) {
-		puts("This matrix is not possible because the \nfirst matrix's width is not he same as\n the second matrix's height");
+		puts("This matrix is not possible because the \nfirst matrix's width is not he same as \nthe second matrix's height");
 		return 1;
 	}
+
 	int c[a_width][b_height];
 
 	// sourced from https://www.programiz.com/cpp-programming/examples/matrix-multiplication
@@ -49,9 +40,12 @@ int main() {
 		}
 	}
 
+	// output answer
+	puts("The answer is: ");
 	for (int i = 0; i < b_width; i++) {
 		for (int j = 0; j < b_height; j++)
-			printf("%i ", c[i][j]);
+			printf("%i\t", c[i][j]);
+		puts("\n");
 	}
 
 	return 0;
