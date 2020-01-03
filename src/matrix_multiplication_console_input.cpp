@@ -19,7 +19,7 @@ int main() {
 	vector<vector<int> > a(A_width, vector<int>(A_height)), b(A_height, vector<int>(B_height)), c(A_width, vector<int>(B_height));
 
 	// inits the first and second matrix
-	puts("\nFirst matrix input (put the elements of row seperated by spaces or linebreaks): ");
+	puts("\nFirst matrix input (put the elements (integers) of row seperated by spaces or linebreaks): ");
 	cout << "* Remeber, this must be a " << A_width << "*" << A_height << " matrix\n\n";
 	for (int i = 0; i < A_height; i++) {
 		cout << "Line " << i + 1 << ": "; 

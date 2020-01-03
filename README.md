@@ -16,7 +16,7 @@ OR
 build matrix_multiplication_console_input.cpp and input
 the numbers in the console. When putting it in the console, 
 put in the dimensions of the height and width, then input the
-values of the matrix line/row by line/row with either 
+values (integer only) of the matrix line/row by line/row with either 
 whitespace or line break to the console
 
 * note, you have to build the projects
