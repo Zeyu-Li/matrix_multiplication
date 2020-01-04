@@ -27,3 +27,9 @@ whitespace or line break to the console
 * libs - placeholder txt file, replace with libraries
 * src - source code
 * test - place to stage tests
+
+
+
+# Note
+
+.exe files are not kept so you will have to build from source (src)
